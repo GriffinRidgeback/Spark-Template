@@ -48,4 +48,7 @@ Can do the same thing for test
 
 # Clean and run
 Project -> clean
+
 Right-click on .scala file and Run As -> Scala Application
+
+Refresh the project to see the results
