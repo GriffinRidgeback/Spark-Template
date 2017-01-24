@@ -15,11 +15,11 @@ Supply values for group ID and artificat ID
 Update to include the spark dependency
 
 <pre>
-		<dependency>
-			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-core_2.10</artifactId>
-			<version>1.4.0</version>
-		</dependency>
+	<dependency>
+		<groupId>org.apache.spark</groupId>
+		<artifactId>spark-core_2.10</artifactId>
+		<version>1.4.0</version>
+	</dependency>
 </pre>
 
 ## Errors
@@ -40,3 +40,8 @@ spark build path is cross-compiled with an incompatible version of Scala (2.10.0
 The following warning message appears:  _More than one scala library found in the build path_
 
 Right click on the project -> Build path -> Configure build path and remove Scala Library Container.
+
+# Update source folder src/main/java to src/main/scala
+Right click -> Refactor -> Rename  to scala
+
+Can do the same thing for test
