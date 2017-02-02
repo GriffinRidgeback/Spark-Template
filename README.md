@@ -9,6 +9,7 @@ It can be obtained from [here](http://scala-ide.org)
 
 # Create a project
 File-> New -> Project -> Maven project
+
 Supply values for group ID and artificat ID
 
 # pom file changes
@@ -23,11 +24,15 @@ Update to include the spark dependency
 </pre>
 
 ## Errors
-Project configuration is not up-to-date with pom.xml. Select: Maven->Update Project... from the project context menu or use Quick Fix.
+Project configuration is not up-to-date with pom.xml. 
+
+Select: Maven->Update Project... from the project context menu or use Quick Fix.
+
 To fix, right-click on project, select Maven -> Update Project
 
 # Add Scala Nature to this project
 Right click on project -> configure - > Add Scala Nature.
+
 This adds the Scala Library Container
 
 ## When you hit this problem:
