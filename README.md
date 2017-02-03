@@ -12,6 +12,9 @@ File-> New -> Project -> Maven project
 
 Supply values for group ID and artificat ID
 
+# pom file
+
+Use the one supplied in this project.  Open the one that is created by default and paste the contents of this pom.xml there.
 # pom file changes
 Update to include the spark dependency
 
@@ -52,7 +55,7 @@ Right click -> Refactor -> Rename  to scala
 Can do the same thing for test
 
 # Clean and run
-Project -> clean
+Project -> clean (do this __every__ time you create/update a file, I think)
 
 Right-click on .scala file and Run As -> Scala Application
 
